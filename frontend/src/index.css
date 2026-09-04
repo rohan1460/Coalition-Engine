@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-base text-ink font-sans antialiased;
+  background-color: #ffffff;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.15);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  line-height: 1;
+}
+
+@layer components {
+  /* Card: warm-white surface, soft border, no heavy shadow. */
+  .card {
+    @apply rounded-2xl border border-line bg-surface;
+  }
+  .h-display {
+    @apply font-display tracking-tight;
+  }
+  /* Rounded-full pill badge/chip. */
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-caps;
+  }
+  .label-caps {
+    @apply text-[11px] font-semibold uppercase tracking-caps text-ink-faint;
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Warm hero/panel wash: dot-grid texture + soft radial glow, faded to
+     transparent toward the bottom so it never fights page content below it. */
+  .hero-panel {
+    @apply relative overflow-hidden rounded-3xl bg-cream;
+  }
+  .hero-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.55;
+    background-image:
+      radial-gradient(circle at 50% -10%, rgba(245, 158, 11, 0.18), transparent 60%),
+      radial-gradient(circle at 85% 20%, rgba(120, 113, 108, 0.1), transparent 45%);
+  }
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.35;
+    background-image: radial-gradient(#a8a29e 0.5px, transparent 0.5px);
+    background-size: 22px 22px;
+    -webkit-mask-image: linear-gradient(to bottom, black, transparent 70%);
+    mask-image: linear-gradient(to bottom, black, transparent 70%);
+  }
+}
+
+/* Hero entrance. Staggered per-element via an inline animationDelay, so one
+   keyframe rule serves the whole page. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise {
+  animation: rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Rupee coins drifting behind a hero panel. Each coin sets its own distance,
+   tilt and timing via custom properties, so one keyframe serves all of them. */
+@keyframes drift {
+  from {
+    transform: translate3d(0, var(--drift-from), 0) rotate(var(--tilt-from));
+  }
+  to {
+    transform: translate3d(0, var(--drift-to), 0) rotate(var(--tilt-to));
+  }
+}
+.coin {
+  animation: drift var(--drift-duration) ease-in-out infinite alternate;
+  animation-delay: var(--drift-delay);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

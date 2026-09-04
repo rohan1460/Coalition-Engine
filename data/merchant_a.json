@@ -1,0 +1,128 @@
+{
+  "merchant_id": "merch_a_lumentech",
+  "name": "LumenTech Electronics",
+  "category": "Laptops & Electronics",
+  "description": "Premium D2C store for laptops, monitors, and computing accessories aimed at professionals, students, and gamers.",
+  "products": [
+    {
+      "product_id": "a_lap_15biz",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenBook Pro 15 Business Laptop",
+      "description": "A 15.6-inch business laptop built for professionals who work on the move. Slim aluminium chassis, Intel Core i7, 16GB RAM, and a 512GB SSD. Its 15-inch display and full-size body pair naturally with a well-padded 15-inch carry solution for daily commutes and business travel.",
+      "category": "Laptops",
+      "price_inr": 84999,
+      "cost_price_inr": 76499,
+      "product_role": "anchor",
+      "stock_qty": 25,
+      "tags": ["15-inch", "business", "laptop", "portable", "professional"]
+    },
+    {
+      "product_id": "a_lap_13ultra",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenBook Air 13 Ultrabook",
+      "description": "An ultra-thin, feather-light 13.3-inch ultrabook weighing under 1kg. Designed for students and frequent flyers who value a slim profile. The compact 13-inch form factor slides easily into a slim sleeve or minimalist carry case.",
+      "category": "Laptops",
+      "price_inr": 69999,
+      "cost_price_inr": 63699,
+      "product_role": "anchor",
+      "stock_qty": 30,
+      "tags": ["13-inch", "ultrabook", "lightweight", "slim", "student"]
+    },
+    {
+      "product_id": "a_lap_16gaming",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenBook Predator 16 Gaming Laptop",
+      "description": "A powerful 16-inch gaming laptop with an RTX GPU, 32GB RAM, and a high-refresh 165Hz display. It is a large, heavy machine that needs a spacious, rugged bag with reinforced protection for its charger and peripherals.",
+      "category": "Laptops",
+      "price_inr": 149999,
+      "cost_price_inr": 140999,
+      "product_role": "anchor",
+      "stock_qty": 12,
+      "tags": ["16-inch", "gaming", "high-performance", "large", "rugged"]
+    },
+    {
+      "product_id": "a_acc_mouse",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenClick Wireless Mouse",
+      "description": "An ergonomic wireless mouse with silent clicks and a rechargeable battery. A small everyday accessory that travels alongside a laptop and needs a dedicated pocket or small organizer to avoid getting lost in a bag.",
+      "category": "Accessories",
+      "price_inr": 1799,
+      "cost_price_inr": 1403,
+      "product_role": "anchor",
+      "stock_qty": 120,
+      "tags": ["mouse", "wireless", "accessory", "ergonomic", "portable"]
+    },
+    {
+      "product_id": "a_acc_keyboard",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenType Mechanical Keyboard",
+      "description": "A compact 75% mechanical keyboard with hot-swappable switches and RGB backlighting. Popular with professionals who carry their own keyboard between home and office and want it protected in transit.",
+      "category": "Accessories",
+      "price_inr": 5499,
+      "cost_price_inr": 4509,
+      "product_role": "anchor",
+      "stock_qty": 60,
+      "tags": ["keyboard", "mechanical", "compact", "portable", "accessory"]
+    },
+    {
+      "product_id": "a_aud_headphones",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenSound NC700 Noise-Cancelling Headphones",
+      "description": "Over-ear active noise-cancelling headphones with 40-hour battery life, ideal for flights and open offices. These premium headphones benefit from a hard protective case to prevent damage while travelling.",
+      "category": "Audio",
+      "price_inr": 12999,
+      "cost_price_inr": 11049,
+      "product_role": "anchor",
+      "stock_qty": 45,
+      "tags": ["headphones", "noise-cancelling", "audio", "travel", "premium"]
+    },
+    {
+      "product_id": "a_acc_hub",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenDock 7-in-1 USB-C Hub",
+      "description": "A 7-in-1 USB-C docking hub with HDMI, ethernet, and card readers. It ships with several cables and adapters that clutter a laptop bag unless kept in a dedicated cable organizer.",
+      "category": "Accessories",
+      "price_inr": 3299,
+      "cost_price_inr": 2639,
+      "product_role": "anchor",
+      "stock_qty": 80,
+      "tags": ["usb-c", "hub", "cables", "adapter", "accessory"]
+    },
+    {
+      "product_id": "a_sto_ssd",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenDrive 1TB Portable SSD",
+      "description": "A pocket-sized 1TB external SSD with USB-C and read speeds up to 1050MB/s. A small, valuable gadget that professionals carry daily and want stored safely in a padded pouch.",
+      "category": "Storage",
+      "price_inr": 8499,
+      "cost_price_inr": 7479,
+      "product_role": "anchor",
+      "stock_qty": 70,
+      "tags": ["ssd", "storage", "portable", "compact", "accessory"]
+    },
+    {
+      "product_id": "a_dis_monitor27",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenView 27 4K Monitor",
+      "description": "A 27-inch 4K UHD monitor with USB-C power delivery for a clean single-cable desk setup. A stationary desk product for home-office and studio workstations.",
+      "category": "Monitors",
+      "price_inr": 27999,
+      "cost_price_inr": 24359,
+      "product_role": "anchor",
+      "stock_qty": 20,
+      "tags": ["monitor", "27-inch", "4k", "desk", "display"]
+    },
+    {
+      "product_id": "a_cam_webcam",
+      "merchant_id": "merch_a_lumentech",
+      "name": "LumenCam 4K Streaming Webcam",
+      "description": "A 4K webcam with autofocus and a built-in privacy shutter for video calls and streaming. A compact desk accessory often carried between locations by hybrid workers.",
+      "category": "Accessories",
+      "price_inr": 4999,
+      "cost_price_inr": 4149,
+      "product_role": "anchor",
+      "stock_qty": 55,
+      "tags": ["webcam", "4k", "streaming", "video", "accessory"]
+    }
+  ]
+}

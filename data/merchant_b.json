@@ -1,0 +1,128 @@
+{
+  "merchant_id": "merch_b_carrycraft",
+  "name": "CarryCraft Bags & Accessories",
+  "category": "Bags & Accessories",
+  "description": "D2C maker of laptop bags, sleeves, and tech-carry accessories designed to protect gadgets in transit for commuters, students, and travellers.",
+  "products": [
+    {
+      "product_id": "b_bag_15backpack",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Metro 15 Padded Laptop Backpack",
+      "description": "A commuter backpack with a dedicated, heavily padded 15-inch to 15.6-inch laptop compartment, water-resistant fabric, and a USB charging pass-through. Sized precisely to protect a standard 15-inch business laptop during daily travel.",
+      "category": "Backpacks",
+      "price_inr": 3499,
+      "cost_price_inr": 1750,
+      "product_role": "companion",
+      "stock_qty": 90,
+      "tags": ["15-inch", "backpack", "padded", "laptop", "commuter"]
+    },
+    {
+      "product_id": "b_slv_13sleeve",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Slim 13 Laptop Sleeve",
+      "description": "A minimalist felt-and-leather sleeve tailored for 13-inch to 13.3-inch ultrabooks. Ultra-slim, lightweight, and easy to slot into another bag — perfect for a thin, light 13-inch ultrabook.",
+      "category": "Sleeves",
+      "price_inr": 1299,
+      "cost_price_inr": 585,
+      "product_role": "companion",
+      "stock_qty": 140,
+      "tags": ["13-inch", "sleeve", "slim", "lightweight", "ultrabook"]
+    },
+    {
+      "product_id": "b_bag_16gaming",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Fortress 16 Gaming & Travel Backpack",
+      "description": "A large, rugged backpack with reinforced protection and a spacious 16-inch to 17-inch laptop bay plus room for a bulky charger and peripherals. Built to haul a heavy high-performance gaming laptop safely.",
+      "category": "Backpacks",
+      "price_inr": 4999,
+      "cost_price_inr": 2749,
+      "product_role": "companion",
+      "stock_qty": 40,
+      "tags": ["16-inch", "backpack", "gaming", "rugged", "large"]
+    },
+    {
+      "product_id": "b_org_techpouch",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Tech Organizer Pouch",
+      "description": "A padded organizer pouch with elastic loops and mesh pockets for a wireless mouse, small keyboard, chargers, and other loose accessories. Keeps everyday gadgets tidy and protected inside any bag.",
+      "category": "Organizers",
+      "price_inr": 899,
+      "cost_price_inr": 360,
+      "product_role": "companion",
+      "stock_qty": 200,
+      "tags": ["organizer", "pouch", "accessory", "padded", "compact"]
+    },
+    {
+      "product_id": "b_case_headphone",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Hard-Shell Headphone Case",
+      "description": "A rigid, crush-resistant hard-shell case shaped to hold over-ear headphones with a mesh pocket for the cable and adapter. Protects premium noise-cancelling headphones from damage while travelling.",
+      "category": "Cases",
+      "price_inr": 1099,
+      "cost_price_inr": 462,
+      "product_role": "companion",
+      "stock_qty": 110,
+      "tags": ["case", "headphones", "hard-shell", "travel", "protective"]
+    },
+    {
+      "product_id": "b_org_cableroll",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Cable Management Roll",
+      "description": "A roll-up organizer with straps and pockets that tames USB-C hubs, adapters, and tangled cables into one tidy bundle. Ideal for anyone carrying a docking hub and multiple cables.",
+      "category": "Organizers",
+      "price_inr": 699,
+      "cost_price_inr": 266,
+      "product_role": "companion",
+      "stock_qty": 180,
+      "tags": ["cables", "organizer", "roll", "adapter", "compact"]
+    },
+    {
+      "product_id": "b_bag_sling",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Crossbody Tech Sling",
+      "description": "A compact crossbody sling with padded pockets for a portable SSD, power bank, phone, and small gadgets. Great for carrying valuable pocket-sized electronics securely on short trips.",
+      "category": "Slings",
+      "price_inr": 1499,
+      "cost_price_inr": 720,
+      "product_role": "companion",
+      "stock_qty": 95,
+      "tags": ["sling", "crossbody", "compact", "gadgets", "portable"]
+    },
+    {
+      "product_id": "b_bag_messenger",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Heritage Leather Laptop Messenger",
+      "description": "A full-grain leather messenger bag with a padded 14-inch to 16-inch laptop section and a professional look for client meetings. A premium carry option for business laptops.",
+      "category": "Messenger Bags",
+      "price_inr": 6999,
+      "cost_price_inr": 4059,
+      "product_role": "companion",
+      "stock_qty": 35,
+      "tags": ["messenger", "leather", "laptop", "business", "premium"]
+    },
+    {
+      "product_id": "b_bag_trolley",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Voyager Rolling Laptop Trolley",
+      "description": "A wheeled trolley bag with a protected laptop compartment and expandable storage for frequent flyers hauling a laptop plus a monitor or gear between offices.",
+      "category": "Trolley Bags",
+      "price_inr": 8999,
+      "cost_price_inr": 5399,
+      "product_role": "companion",
+      "stock_qty": 22,
+      "tags": ["trolley", "wheeled", "travel", "laptop", "large"]
+    },
+    {
+      "product_id": "b_folio_tablet",
+      "merchant_id": "merch_b_carrycraft",
+      "name": "CarryCraft Minimalist Device Folio",
+      "description": "A slim folio that holds a tablet or thin laptop plus a webcam, cables, and cards in one flat carry piece. A lightweight everyday option for hybrid workers with minimal gear.",
+      "category": "Folios",
+      "price_inr": 1699,
+      "cost_price_inr": 748,
+      "product_role": "companion",
+      "stock_qty": 75,
+      "tags": ["folio", "slim", "tablet", "minimalist", "lightweight"]
+    }
+  ]
+}

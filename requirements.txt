@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+razorpay
+sentence-transformers
+neo4j
+anthropic
+python-dotenv
+pytest
