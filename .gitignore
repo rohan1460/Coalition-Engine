@@ -16,5 +16,8 @@ venv/
 data/*.db
 neo4j/
 
-# Cached embeddings (regenerated from catalogs on first run)
-data/.embedding_cache.pkl
+# Embedding cache is intentionally tracked (not ignored): shipping the
+# precomputed vectors for the demo catalog means production never needs to
+# import sentence-transformers/torch at all — critical on CPU-constrained
+# free-tier hosting. Delete data/.embedding_cache.pkl locally and it
+# regenerates automatically the next time you run with real compute.
