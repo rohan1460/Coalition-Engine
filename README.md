@@ -34,8 +34,6 @@
 </div>
 <br/>
 ---
-
-> 🔴 **Live**: [coalition-engine-beryl.vercel.app](https://coalition-engine-beryl.vercel.app) — backend is on a free-tier host and sleeps after ~15 min idle, so the first load can take up to a minute to wake up.
  
 ## 💡 What is Coalition Engine?
  
@@ -314,5 +312,3 @@ Coalition-Engine/
 ⭐ **If this was interesting, a star helps.** ⭐
  
 </div>
-
-razor pay read me
