@@ -27,9 +27,15 @@
 ### 🔗 Semantic Matching &nbsp;·&nbsp; 🤝 Agent Negotiation &nbsp;·&nbsp; 🔒 Human Safety Gate &nbsp;·&nbsp; 🔁 Saga Recovery
  
 <br/>
+<p align="center">
+  <a href="https://coalition-engine-beryl.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://coalition-engine.onrender.com/docs"><img src="https://img.shields.io/badge/API_Docs-009688?style=for-the-badge&logo=fastapi&logoColor=white" /></a>
+</p>
 </div>
 <br/>
 ---
+
+> 🔴 **Live**: [coalition-engine-beryl.vercel.app](https://coalition-engine-beryl.vercel.app) — backend is on a free-tier host and sleeps after ~15 min idle, so the first load can take up to a minute to wake up.
  
 ## 💡 What is Coalition Engine?
  
